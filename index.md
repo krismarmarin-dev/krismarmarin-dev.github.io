@@ -160,9 +160,9 @@
 
 **Siempre abierta a nuevas oportunidades, colaboraciones y conversaciones**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Krismar_Marin-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/stephyangeles/)
-[![Email](https://img.shields.io/badge/Email-stephylopez3@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:stephylopez3@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-@stephyangeles-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/stephyangeles)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Krismar_Marin-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/krismarmarin/)
+[![Email](https://img.shields.io/badge/Email-krismarmarin@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:krismarmarin@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-@krismarmarin-dev-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/krismarmarin)
 
 <br>
 
