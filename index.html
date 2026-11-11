@@ -3,6 +3,116 @@
 <head>
 <meta charset="UTF-8">
 <title>Krismar Marin</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;700&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #17111f;
+    --panel: #231a31;
+    --line: #3a2d4f;
+    --text: #f2edf9;
+    --muted: #bdb1d3;
+    --accent: #ff5fa2;
+    --accent-2: #a899ff;
+    color-scheme: dark;
+  }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0 auto;
+    max-width: 920px;
+    padding: 48px 22px 72px;
+    color: var(--text);
+    font-family: "Figtree", "Segoe UI", system-ui, -apple-system, Arial, sans-serif;
+    font-size: 1.05rem;
+    line-height: 1.7;
+    background-color: var(--bg);
+    background-image:
+      radial-gradient(900px 520px at 85% -8%, rgba(255, 95, 162, 0.16), transparent 70%),
+      radial-gradient(800px 600px at -10% 35%, rgba(168, 153, 255, 0.14), transparent 70%);
+    background-attachment: fixed;
+  }
+  h1, h2, h3 {
+    font-family: "Syne", "Figtree", "Segoe UI", sans-serif;
+    color: var(--text);
+    line-height: 1.2;
+  }
+  h1 {
+    font-size: clamp(2rem, 6vw, 3.4rem);
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    margin: 0.2em 0 0.3em;
+  }
+  h2 {
+    font-size: clamp(1.5rem, 4vw, 2rem);
+    font-weight: 700;
+    margin: 0.2em 0 0.8em;
+    padding-bottom: 0.4em;
+    border-bottom: 2px solid var(--line);
+  }
+  h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--accent-2);
+    margin: 1.4em 0 0.7em;
+  }
+  div[align="center"] > h3:first-child { margin-top: 0.4em; }
+  hr {
+    border: 0;
+    height: 1px;
+    margin: 44px 0;
+    background: linear-gradient(90deg, transparent, var(--line) 20%, var(--accent) 50%, var(--line) 80%, transparent);
+    opacity: 0.9;
+  }
+  img { max-width: 100%; vertical-align: middle; }
+  img[width="100%"] {
+    border-radius: 18px;
+    border: 1px solid var(--line);
+    box-shadow: 0 24px 60px rgba(0, 0, 0, 0.45);
+  }
+  a { color: var(--accent-2); }
+  a:hover { color: var(--accent); }
+  a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 6px; }
+  a img { margin: 3px 2px; }
+  strong { color: #fff; font-weight: 700; }
+  em { color: var(--muted); font-size: 1.15rem; }
+  blockquote {
+    margin: 0;
+    padding: 20px 26px;
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-left: 5px solid var(--accent);
+    border-radius: 14px;
+    line-height: 2;
+  }
+  table {
+    border-collapse: separate;
+    border-spacing: 0;
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    overflow: hidden;
+  }
+  th, td {
+    padding: 12px 18px;
+    border-bottom: 1px solid var(--line);
+  }
+  th {
+    background: rgba(168, 153, 255, 0.12);
+    color: var(--text);
+    font-family: "Syne", "Figtree", sans-serif;
+    font-weight: 700;
+    font-size: 0.95rem;
+  }
+  tbody tr:last-child td { border-bottom: 0; }
+  td + td, th + th { border-left: 1px solid var(--line); }
+  @media (max-width: 640px) {
+    body { padding: 28px 14px 48px; font-size: 1rem; }
+    th, td { padding: 9px 10px; font-size: 0.9rem; }
+    blockquote { padding: 16px 18px; }
+  }
+</style>
 </head>
 <body>
 
